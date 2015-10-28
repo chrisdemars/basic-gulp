@@ -1,0 +1,25 @@
+{
+  "name": "basic-gulp",
+  "version": "1.0.0",
+  "description": "A basic gulp build system for the world.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisdemars/basic-gulp.git"
+  },
+  "keywords": [
+    "gulp",
+    "build",
+    "build",
+    "system"
+  ],
+  "author": "Chris DeMars",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisdemars/basic-gulp/issues"
+  },
+  "homepage": "https://github.com/chrisdemars/basic-gulp"
+}
