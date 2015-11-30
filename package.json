@@ -21,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/chrisdemars/basic-gulp/issues"
   },
-  "homepage": "https://github.com/chrisdemars/basic-gulp"
+  "homepage": "https://github.com/chrisdemars/basic-gulp",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2",
+    "jshint-stylish": "^2.0.1"
+  }
 }

@@ -1,6 +1,6 @@
 // Gulp packages
 
-var gulp  = require('gulp');
+var gulp   = require('gulp');
     jshint = require('gulp-jshint');
 
 // Define the default task and add the watch task to it.
