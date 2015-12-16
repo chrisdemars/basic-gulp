@@ -1,11 +1,12 @@
 // Gulp packages
 
-var gulp   = require('gulp');
-    jshint = require('gulp-jshint');
-
-// Define the default task and add the watch task to it.
-
-gulp.task('default', ['watch']);
+var gulp     = require('gulp');
+    concat   = require('gulp-concat');
+    imagemin = require('gulp-imagemin');
+    jshint   = require('gulp-jshint');
+    strip    = require('gulp-strip-debug');
+    uglify   = require('gulp-uglify');
+    stylish  = require('jshint-stylish')
 
 // Configure the jshint task.
 
@@ -20,4 +21,8 @@ gulp.task('jshint', function() {
 gulp.task('watch', function() {
     gulp.watch('srouce/javascript/**/*.js', ['jshint']);
     });
+
+// Define the default task and add the watch task to it.
+
+gulp.task('default', ['watch']);
 
