@@ -28,6 +28,14 @@ gulp.task('css', function() {
     .pipe(gulp.dest('prod/dist/css');
     })
 
+// Configure image tasks.
+
+gulp.task('images', function() {
+    return gulp.src('src/img/**/*.jpg')
+    .pipe(gulp-imagemin())
+    .pipe(gulp.dest('prod/dist/img');
+    })
+
 // Configure which files to watch and what tasks to use on file changes.
 // The watch task can be added later before the build task officially runs.
 
@@ -37,5 +45,5 @@ gulp.task('css', function() {
 
 // Define the default task and add the watch task to it.
 
-gulp.task('default', ['js', 'css',]);
+gulp.task('default', ['js', 'css', 'images']);
 
