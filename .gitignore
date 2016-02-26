@@ -1,5 +1,7 @@
 # Created by https://www.gitignore.io/api/node,sublimetext
 
+.DS_Store
+
 ### Node ###
 # Logs
 logs
